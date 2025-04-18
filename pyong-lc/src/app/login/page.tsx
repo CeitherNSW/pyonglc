@@ -58,7 +58,7 @@ export default function LoginPage() {
         <button type="submit" style={{ width: 240, padding: '10px 24px', backgroundColor: '#B3D8F5', border: 'none', borderRadius: 6 }}>
           登录
         </button>
-        <button style={{ width: 240, padding: '10px 24px', backgroundColor: '#B3D8F5', border: 'none', borderRadius: 6 }}>Back to Home</button>
+        <button style={{ width: 240, padding: '10px 24px', backgroundColor: '#B3D8F5', border: 'none', borderRadius: 6 }} onClick={() => router.push('/')}>Back to Home</button>
         </div>
       </form>
     </div>
